@@ -1,5 +1,13 @@
 # Запросы к иллюстрациям
 
+## 09-rendering-fixes — 7 октября 2026
+
+Встроенный ImageGen. Референс `02-mechanics.webp` использован только для техники.
+Прямоугольники обозначают условные плоскости рендера, а не игровые детали.
+Итог: `assets/stages/09-rendering-fixes.webp`, 1440×810, WebP quality 86.
+
+Use case: illustration-story. Asset: ninth chapter of public Paperlore Jigsaw development showroom. Generate a new landscape 16:9 editorial drawing. Reference image is STYLE ONLY, warm cream paper, expressive colored pencil and graphite contours, rich teal and ochre accents, subtle depth, attractive technical sketch. Do not repeat its composition. Subject: diagnosing a rendering bug after first release. A large central exploded-view drawing of a portrait Android game board at a three-quarter angle, clearly separated three planes: opaque teal tabletop at bottom, one flat rectangular lagoon picture fragment in middle, a second flat rectangular ochre illustration fragment hovering slightly above and overlapping it. These fragments represent cropped render layers, NOT actual jigsaw geometry: all edges simple straight rectangles, absolutely no puzzle tabs or sockets. Curved pencil drag arrow shows the upper fragment staying on top; dotted old-position outline on tabletop. To the right a small magnifying-lens callout shows crisp correctly ordered overlap edges, upper ochre fragment occludes lower teal fragment; no transparency or ghosting in corrected view. Along bottom, three simple filmstrip frames show SAME two rectangles through drag, release, stable order, exact unchanged silhouettes and colors. One graphite pencil pointing at overlap, no hands or people. Exact short Russian labels only: top 'Проверка слоёв'; under bottom frames 'Перенос', 'Отпускание', 'Порядок'; small release tag '1.0.1'. No code, charts, numbers apart from version, logos, store badges, notebook, clutter or photorealism. This is an explanatory artistic reconstruction, not screenshot. Balanced roomy layout with strong central focal point, colorful pencil hatching.
+
 Режим: встроенный ImageGen. Редакционные иллюстрации для публичного шоурума. Итоговый рисунок каждого раздела учитывает перечисленные после основного запроса уточнения.
 
 ## 01-idea
@@ -73,5 +81,4 @@ Use case: illustration-story. Create a new attractive editorial illustration for
 ### Уточнение
 
 Keep this attractive colored-pencil QA desk scene, warm light, phone, laptop, hand, checklist with exactly «Сборка», «Сохранение», «Прогресс», «Подпись», and envelope «1.0.0». Change the phone to show a COMPLETED cat-in-barn picture inside a cream polaroid on the teal game background, without any jigsaw cut lines or loose pieces. The hand taps the lower screen button after completion. Change the laptop's four row thumbnail icons from irregular puzzle pieces to simple clear outlined symbols: checkmark, floppy disk save, progress bar, signature/pen. Preserve green successful checkmarks on the right of each row. No puzzle piece contours anywhere; the release test is checking completed result and save state. Keep all visual style and framing.
-
 
